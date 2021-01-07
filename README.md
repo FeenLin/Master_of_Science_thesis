@@ -18,7 +18,7 @@ Huafan University Department of Electronic Engineering MA Hui-En Lin
 ## 研究流程圖
   **硬體 & MCS& APP流程圖:**
 
-![image](https://github.com/FeenLin/Master_of_Science_thesis/blob/master/Picture/2.jpg)
+![image](https://github.com/FeenLin/Master_of_Science_thesis/blob/master/Picture/2.png)
 
   **AI 物體辨識流程圖:**
 
