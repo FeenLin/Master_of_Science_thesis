@@ -37,7 +37,14 @@ Huafan University Department of Electronic Engineering MA Hui-En Lin
 
 ### 二氧化碳感測器
 
-## 物體辨識結果
+### 其他硬體配置
+
+## 軟體配置Middleware、 Presentation與AI應用
+這裡使用MCS作為Middleware、使用APP Inventor製作Presentation以及Teachable Machine製作AI用的Label與Model。
+
+### APP介面
+
+### AI辨識應用
 
 ## 研究實品
 
