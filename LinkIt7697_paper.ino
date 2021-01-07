@@ -4,7 +4,7 @@
 #include <SoftwareSerial.h>
 #define DHTPIN 3      
 #define DHTTYPE DHT22
-#define ledpin 4   // Humidifier open/close button
+#define Humidifier 4   // Humidifier open/close button
 SoftwareSerial co2Serial(2,11);  // RX, TX
 DHT dht(DHTPIN, DHTTYPE);
 int i,j,k;
@@ -69,7 +69,7 @@ void setup()
 
   Serial.println("\nStarting connection to server...");
   Udp.begin(localPort);
-  pinMode(ledpin,OUTPUT);
+  pinMode(Humidifier,OUTPUT);
   
   Serial.begin(9600);
 }
@@ -83,19 +83,19 @@ void loop()
     }
   mcs.process(1);
 
-//================ 開關 ============//
+//================ Humidifier開關 ============//
     receiveData=UdpR().charAt(0);//取udp接收資料的第一個字元
     Serial.print("receiveDatareceiveData =");
     Serial.println(receiveData);
     Serial.println("~~~~~~UDP~~~~~~");
       if(receiveData =='O'){
-              digitalWrite(ledpin,HIGH);
-              Serial.println("~~~~LED ON ~~~~");
+              digitalWrite(Humidifier,HIGH);
+              Serial.println("~~~~Humidifier ON ~~~~");
                
              }
       else if(receiveData =='C'){
-              digitalWrite(ledpin,LOW);
-              Serial.println("~~~~LED OFF ~~~~");  
+              digitalWrite(Humidifier,LOW);
+              Serial.println("~~~~Humidifier OFF ~~~~");  
              } 
 //=================== co2 ==================//
     co2Serial.listen();
