@@ -2,4 +2,6 @@
 Indoor Air Quality Detection and AIoT Application - Huafan University Department of Electronic Engineering MA Hui-En Lin
 
 ## 摘要
-  本論文
+  本研究旨在以 AIOT結合APP檢視室內辦公空間的空氣品質。目前市面上較少檢測室內CO2濃度的小型產品，所以此研究利用LinkIt7697開發出一款適合室內空間使用的空氣品質偵測產品，以及配合現在興盛的外送平台進行AI物體辨識，減少外送到達時，找不到客戶的窘境。
+
+
