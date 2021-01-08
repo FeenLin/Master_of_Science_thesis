@@ -6,8 +6,6 @@ Huafan University Department of Electronic Engineering MA Hui-En Lin
   本研究旨在以 AIOT結合APP檢視室內辦公空間的空氣品質。目前市面上較少檢測室內CO2濃度的小型產品，所以此研究利用**LinkIt7697**開發出一款適合室內空間使用的空氣品質偵測產品，以及配合現在興盛的外送平台使用**Raspberry Pi4**進行AI物體辨識，減少外送到達時，找不到客戶的窘境。
   
   **外觀架構圖:**
-  
-![image](https://github.com/FeenLin/Master_of_Science_thesis/blob/master/Picture/1.png)
 
 ## 導論
 目前全世界運用物聯網技術，已經發展出許多跟日常生活有關的應用與產品，例如智能號誌、智慧路燈、智慧城市平台等。其中空氣品質的監控近年也受民眾重視，但新聞媒體以及空氣偵測機都是以PM2.5為主要目標，但室內空間的CO2含量也是空氣品質的指標之一。大部分可以偵測CO2濃度的機器都屬於價格昂貴的工業使用，極少有適合一般室內空間的機台，所以此研究結合AI及IOT發展辦公室、居家空氣品質、影像辨識產品。
