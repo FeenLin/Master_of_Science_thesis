@@ -31,7 +31,7 @@ Huafan University Department of Electronic Engineering MA Hui-En Lin
 ![image](https://github.com/FeenLin/Master_of_Science_thesis/blob/master/Picture/3.png)
 
 ## 硬體配置
-本論文使用兩種感測器類型，分別是溫溼度感測器DHT22與二氧化碳感測器DS-CO2、使用WS128B晶片的LED燈條、超音波震動原理的霧化器與AI辨識用的攝影機搭配而成，以下分別對各配置介紹，並實際應用於北部信義區某公司的辦公空間中偵測數值，辦公室為40人70坪的小型辦公空間，由於人數較少，所以沒有設置櫃台可以接待外送人員與客人，設置AI辨識功能可以解決此問題。
+
 
 ### 溫溼度感測器
 
@@ -40,7 +40,7 @@ Huafan University Department of Electronic Engineering MA Hui-En Lin
 ### 其他硬體配置
 
 ## 軟體配置Middleware、 Presentation與AI應用
-這裡使用MCS作為Middleware、使用APP Inventor製作Presentation以及Teachable Machine製作AI用的Label與Model。
+
 
 ### APP介面
 
