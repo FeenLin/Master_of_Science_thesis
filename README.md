@@ -1,6 +1,6 @@
 # Indoor Air Quality Detection and AIoT Application  : 室內空氣品質偵測與人工智慧物聯網應用 
-Huafan University Department of Electronic Engineering MA Hui-En Lin
-以下是論文口試報告時所用部分的PPT
+**Huafan University Department of Electronic Engineering MA Hui-En Lin**
+以下是論文口試報告時的少部分內容
 
 ## 摘要
   本研究旨在以 AIOT結合APP檢視室內辦公空間的空氣品質。目前市面上較少檢測室內CO2濃度的小型產品，所以此研究利用**LinkIt7697**開發出一款適合室內空間使用的空氣品質偵測產品，以及配合現在興盛的外送平台使用**Raspberry Pi4**進行AI物體辨識，減少外送到達時，找不到客戶的窘境。
@@ -30,19 +30,14 @@ Huafan University Department of Electronic Engineering MA Hui-En Lin
 
 ## 硬體配置
 
+使用 溫溼度感測器 - DHT22以及二氧化碳感測器 - DS-CO2 透過Arduino程式碼去控制並上傳到MCS雲端平台上做感測數值的紀錄，配有LED燈條隨著"酷熱指數'去顯示對應的顏色，以及加濕器開關
 
-### 溫溼度感測器
-
-### 二氧化碳感測器
-
-### 其他硬體配置
 
 ## 軟體配置Middleware、 Presentation與AI應用
+使用APP Inventer製作手機APP程式，擁有登入、註冊與主要介面，登入與註冊是連接Google firebase連動，主要介面顯示從MCS上撈取的感測器數值並顯示出來，以及配有一組加濕器開關可以透過UDP通訊控制硬體端。
 
+AI應用是使用 Google Teachable Machine製作Model和Label，參考xxx的教學文章並修改成適合的.py檔套入樹莓派使用，透過USB攝影機辨識Uber Eat、Foodpanda與Packages。
 
-### APP介面
-
-### AI辨識應用
 
 ## 研究實品
 
