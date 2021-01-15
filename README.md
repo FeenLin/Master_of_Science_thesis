@@ -21,7 +21,9 @@
 
 ![image](https://github.com/FeenLin/Master_of_Science_thesis/blob/master/Picture/3.png)
 
+   **啟動霧化器的效果:**
 
+![image](https://github.com/FeenLin/Master_of_Science_thesis/blob/master/Picture/humi.png)
 
 ## 軟體配置Middleware、 Presentation與AI應用
 使用APP Inventer製作手機APP程式，擁有登入、註冊與主要介面，登入與註冊是連接Google firebase連動，主要介面顯示從MCS上撈取的感測器數值並顯示出來，以及配有一組加濕器開關可以透過UDP通訊控制硬體端。
