@@ -25,10 +25,13 @@
 
 ## 軟體配置Middleware、 Presentation與AI應用
 使用APP Inventer製作手機APP程式，擁有登入、註冊與主要介面，登入與註冊是連接Google firebase連動，主要介面顯示從MCS上撈取的感測器數值並顯示出來，以及配有一組加濕器開關可以透過UDP通訊控制硬體端。
-![image]()
+
+![image](https://github.com/FeenLin/Master_of_Science_thesis/blob/master/Picture/app.png)
 
 AI應用是使用 Google Teachable Machine製作Model和Label，參考文獻[1]的教學文章並修改成適合的.py檔套入樹莓派使用，透過USB攝影機辨識Uber Eat、Foodpanda與Packages。
-![image]()
+
+![image](https://github.com/FeenLin/Master_of_Science_thesis/blob/master/Picture/tm1.png)
+![image](https://github.com/FeenLin/Master_of_Science_thesis/blob/master/Picture/tm2.png)
 
 ## 研究實品
 ![image](https://github.com/FeenLin/Master_of_Science_thesis/blob/master/Picture/final.png)
