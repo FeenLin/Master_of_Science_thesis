@@ -31,6 +31,7 @@
 AI應用是使用 Google Teachable Machine製作Model和Label，參考文獻[1]的教學文章並修改成適合的.py檔套入樹莓派使用，透過USB攝影機辨識Uber Eat、Foodpanda與Packages。
 
 ![image](https://github.com/FeenLin/Master_of_Science_thesis/blob/master/Picture/tm1.png)
+
 ![image](https://github.com/FeenLin/Master_of_Science_thesis/blob/master/Picture/tm2.png)
 
 ## 研究實品
