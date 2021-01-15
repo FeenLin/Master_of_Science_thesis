@@ -28,9 +28,6 @@
 
 ![image](https://github.com/FeenLin/Master_of_Science_thesis/blob/master/Picture/3.png)
 
-## 硬體配置
-
-使用 溫溼度感測器 - DHT22以及二氧化碳感測器 - DS-CO2 透過Arduino程式碼去控制並上傳到MCS雲端平台上做感測數值的紀錄，配有LED燈條隨著"酷熱指數'去顯示對應的顏色，以及加濕器開關
 
 
 ## 軟體配置Middleware、 Presentation與AI應用
